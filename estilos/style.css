@@ -125,3 +125,52 @@ form {
 .input-special:hover{
     background: rgb(158, 15, 241);
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 1264px) {
+    .links a{
+        margin-left: 10px;
+    }
+}
+    
+@media screen and (max-width: 1120px){
+    .container{
+        max-width: 60%;
+        margin: auto;
+    }
+    header{
+        margin-top: -80px;
+        justify-content: space-between;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+    .links a{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 998px){
+    .image img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 674px){
+    .special{
+        padding: 9px 5px;
+    }
+}
+
+@media screen and (max-width: 583px){
+    .special{
+       text-align: center;
+    }
+}
+
